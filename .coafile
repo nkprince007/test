@@ -1,0 +1,8 @@
+[cli]
+files = **.gyp
+bears = LineCountBear,FilenameBear,InvalidLinkBear
+max_lines_per_file = 80
+json = True 
+[python]
+files = **.gyp
+bears = PycodestyleBear
